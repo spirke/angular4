@@ -1,0 +1,9 @@
+#product_allocation{
+	width: 85%;
+	float: left;
+}
+td a,ol li a{text-decoration:none}
+.panel{
+	width: 85%;
+	margin:30px auto;
+}

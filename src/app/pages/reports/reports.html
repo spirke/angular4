@@ -1,0 +1,34 @@
+<div id="reports">
+	<ol class="breadcrumb">
+	    <li>分析</li>
+	    <li class="active">报表</li>
+	</ol>
+	<table class="table table-bordered">
+		<caption>第{{nowPage}}页表格</caption>
+		<thead>
+			<tr>
+				<th>名称</th>
+				<th></th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+	<pagination [pageList]="pageList" [totalPage]="totalPage" (changeCurPage)="goToNewPage($event)"></pagination>
+</div>
