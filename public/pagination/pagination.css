@@ -1,0 +1,21 @@
+ul{
+	width: 52%;
+	min-width: 595px;
+	margin:10px 24%;
+}
+input{
+	width: 40px;
+	margin:0 10px;
+	text-align: center;
+}
+button{
+	width: 50px;
+	margin:4px 10px;	
+}
+li{
+	cursor: pointer;
+	line-height: 20px;
+}
+li:nth-last-child(1),li:nth-last-child(2){
+	margin:-10px  0 0 20px;
+}

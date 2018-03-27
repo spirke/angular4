@@ -1,0 +1,85 @@
+td a{text-decoration:none}
+.panel{
+	width:90%;
+	margin:30px auto;
+}
+.selectForm{
+	width: 200px;
+	float:left;
+}
+.selectForm:last-child .input-group{
+	width: 500px;
+}
+.selectForm:last-child input{
+	width: 400px;
+}
+.bs-example{
+	width: 90%;
+	height: 45px;
+	margin:0 auto;
+}
+/*左边*/
+.leftCheck{
+	float: left;
+	width: 10%;
+}
+.leftCheck button{
+	width: 95%;
+	height: 38px;
+}
+.leftCheck ul{
+	padding: 0;
+	margin:0;
+}
+.leftCheck li{
+	height:43px;
+	text-align: center;
+	list-style-type:none;
+}
+.leftCheck li input{
+	margin:0;
+	height:43px;
+}
+/*右边*/
+.panel .table-bordered{
+	float: right;
+	width: 90%;
+}
+/*.panel .table-bordered th,.panel td{
+	width:11%;
+}*/
+td a{
+	cursor:pointer;
+}
+.panel .table-bordered td input{
+	width: 100%;
+}
+/*模态*/
+.form-group{
+	margin:10px auto;
+}
+.form-control{
+	width: 80%;
+}
+.input-group-btn{
+	float: left;
+}
+.col-sm-offset-2 button{
+	width: 30%;
+}
+#myphote_mess{
+	height: 27px;
+	width: 153px;
+	position: absolute;
+	z-index: 1;
+	opacity: 0;
+}
+#exhibition{
+	display: block;
+	margin:0 auto;
+	height: 300px;
+	width: 400px;
+}
+.greenHint,.redHint{
+	margin:10px auto;
+}
